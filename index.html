@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>My Beauty Routines</title>
+  <meta name="description" content="Рутини за лице и коса, каталог с продукти и дневник.">
+  <meta name="theme-color" content="#c2577a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Beauty">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="icons/favicon.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>My Beauty Routines</h1>
+  </header>
+
+  <main id="view" class="view" aria-live="polite"></main>
+
+  <nav class="tabbar" aria-label="Основно меню">
+    <a href="#today" data-tab="today"><span aria-hidden="true">✓</span>Днес</a>
+    <a href="#routines" data-tab="routines"><span aria-hidden="true">☰</span>Рутини</a>
+    <a href="#products" data-tab="products"><span aria-hidden="true">✿</span>Продукти</a>
+    <a href="#more" data-tab="more"><span aria-hidden="true">⋯</span>Още</a>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
